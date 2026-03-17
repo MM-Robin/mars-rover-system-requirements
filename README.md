@@ -1,5 +1,7 @@
 # Mars Rover System Requirement Specification (SRS)
 
+> A system design and documentation project demonstrating requirement engineering, system architecture, and team-based project coordination.
+
 This project presents the system design and requirement specification for a Mars Rover application developed as part of an academic course in Advanced Embedded Software Design.
 
 ## Project Overview
@@ -22,13 +24,15 @@ The following diagram illustrates the overall system architecture of the Mars Ro
 
 ![System Architecture](diagrams/system_architecture.png)
 
+*Figure: High-level architecture showing communication between operator, onboard computer, and rover components.*
+
 ## System Block Diagram
 
-For the block diagram image, here's improved alt text:
+The following diagram shows the internal structure of the rover onboard computer, including inputs, outputs, and communication flow.
 
-```markdown
-![Block diagram of Mars Rover O/C showing inputs and outputs. Left side inputs: Telecommand, Connection, TC_present, TM_sensor_X, TM_SX_present, TM_SX_Connection, TM_sensor_Y, TM_SY_present, TM_SY_Connection. Central box labeled Rover O/C. Right side outputs: Camera-lid Open/Close and Driving Platform. Bottom shows bidirectional Telemetry connection.](diagrams/block_diagram.png)
-```
+![Block Diagram](diagrams/block_diagram.png)
+
+*Figure: Block diagram illustrating rover inputs, outputs, and telemetry communication.*
 
 ## System Highlights
 
@@ -42,7 +46,8 @@ For the block diagram image, here's improved alt text:
 
 ## Repository Structure
 
-- `docs/` → System Requirement Specification document
+- `docs/` → System Requirement Specification (SRS)
+- `diagrams/` → System architecture and block diagrams
 
 ## Skills Demonstrated
 
